@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffffff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+/* header-Pagina */
+header {
+    width: 100%;
+    height: 600px;
+    background-image: url(imagenes/portada\ \(5\).jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.menu a {
+    padding: 0 20px;
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 20px;
+}
+
+.texto-titulo {
+    margin: 150px 0;
+    text-align: center;
+}
+
+.titulo-header {
+    font-size: 90px;
+    color: #fff48f;
+    margin-bottom: 5px;
+}
+
+.parrafo-header {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff48f;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.call-to-action {
+    display: inline-block;
+    padding: 10px 10px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid #15a4fa;
+    border-radius: 10px;
+    color: #eeeeee;
+}
+
+/* Acerca de nosotros */
+
+.contenedor-section2 {
+    background: #eeeeee;
+    padding: 40px 20px;
+}
+
+.titulo-acerca {
+    font-size: 35px;
+    font-weight: 700;
+    color: #3b2e5a;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.parrafo-acerca {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 100px;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+/* Servicios */
+
+.servicios {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.imagen {
+    width: 50%;
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3b2e5a;
+}
+
+.parrafo-our {
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+    padding: 10px;
+}
+
+.cont-galeria {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 50px;
+    background: #eeeeee;
+}
+
+.titulo-galeria {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 35px;
+    font-weight: 700;
+    color: #3b2e5a;
+}
+
+.parrafo-galeria {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 100px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.imagenes-galeria {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-inside {
+    padding: 10px;
+}
+
+.img-serv {
+    border-radius: 20px;
+}
+
+.img-serv:hover {
+    opacity: .6;
+    color: #555555;
+}
+
+footer {
+    width: 100%;
+    height: 600px;
+    background-image: url(imagenes/footer.jpg);
+}
+
+.texto-footer {
+    text-align: center;
+    padding: 20px 0;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #eeeeee;
+    margin-bottom: 20px;
+}
+
+p {
+    color: rgb(228, 228, 228);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.formulario {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto-nombre {
+    background: none;
+    border-color: 1px solid #eeeeee;
+    border-radius: 5px;
+    height: 40px;
+    padding: 20px 10px;
+    font-size: 18px;
+    color: bisque;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.texto-correo {
+    background: none;
+    border-color: 1px solid #eeeeee;
+    border-radius: 5px;
+    height: 40px;
+    padding: 20px 10px;
+    font-size: 18px;
+    color: bisque;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.texto-mensaje {
+    background: none;
+    border-color: 1px solid #eeeeee;
+    border-radius: 5px;
+    min-width: 100%;
+    max-width: 100%;
+    height: 200px;
+    padding: 20px 10px;
+    font-size: 18px;
+    color: bisque;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.derecha {
+    text-align: end;
+}
+
+.boton-enviar {
+    background: none;
+    border-color: 1px solid #15a4fa;
+    border-radius: 5px;
+    height: 40px;
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+    color: bisque;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.boton-enviar:hover {
+    color: #0d6ff0;
+    cursor: pointer;
+    background: #ffffff;
+
+}
+
+
+@media screen and (max-width:600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .contenedor {
+        width: 90%;
+        max-width: 600px;
+        overflow: hidden;
+        margin: auto;
+        /* position: absolute; */
+    }
+
+    .menu {
+        display: flex;
+        font-weight: 300;
+        flex-direction: row;
+    }
+
+    .menu a {
+        padding: 0 10px;
+        text-decoration: underline;
+        color: #eeeeee;
+        font-size: 16px;
+    }
+
+    header {
+        width: 100%;
+        height: 600px;
+        background-image: url(imagenes/portada\ \(5\).jpg);
+        background-attachment: fixed;
+        position: relative;
+    }
+
+    .texto-titulo {
+        margin: 150px 0;
+        text-align: center;
+    }
+
+    .titulo-header {
+        font-size: 60px;
+        color: #fff48f;
+        margin-bottom: 5px;
+    }
+
+    .parrafo-header {
+        width: 90%;
+        font-size: 26px;
+        font-weight: 300;
+        color: #fff48f;
+        text-align: center;
+        margin: 30px 10px
+    }
+
+    /* Acerca de nosotros */
+
+    .parrafo-acerca {
+        font-size: 18px;
+        text-align: center;
+        font-weight: 500;
+        color: #555555;
+        margin-bottom: 20px;
+    }
+
+    /* Servicios */
+
+    .servicios {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 40px 0px;
+    }
+
+    @media screen and (max-width:400px) {
+
+        .parrafo-header {
+            width: 90%;
+            font-size: 22px;
+            font-weight: 300;
+            color: #fff48f;
+            text-align: center;
+            margin: 15px 10px
+        }
+
+        /* Acerca de nosotros */
+
+        .parrafo-acerca {
+            width: 100%;
+            margin: auto;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 500;
+            color: #555555;
+        }
+    }
+}
